@@ -8,7 +8,8 @@
     "dairy": true,
     "specialty": true,
     "category": "main",
-    "image": "./img/tomato_pizza.jpg"
+    "image": "./img/tomato_pizza.jpg",
+    "credit": "https://www.pexels.com/photo/baking-cherry-tomatoes-color-cooking-604969/"
   },
   {
     "name": "Deluxe Tofu Soup",
@@ -19,7 +20,8 @@
     "dairy": false,
     "specialty": true,
     "category": "main",
-    "image": "./img/veggie_soup.jpg"
+    "image": "./img/veggie_soup.jpg",
+    "credit": "https://www.pexels.com/photo/vegetable-salad-3026808/"
   },
   {
     "name": "Poached Toast",
@@ -30,7 +32,8 @@
     "dairy": false,
     "specialty": true,
     "category": "main",
-    "image": "./img/avocado_toast.jpg"
+    "image": "./img/avocado_toast.jpg",
+    "credit": "https://www.pexels.com/photo/cooked-food-704569/"
   },
   {
     "name": "Choco Pancake Stack",
@@ -41,7 +44,8 @@
     "dairy": true,
     "specialty": true,
     "category": "main",
-    "image": "./img/pancake.jpg"
+    "image": "./img/pancake.jpg",
+    "credit": "https://www.pexels.com/photo/chocolate-delicious-dessert-food-574111/"
   },
   {
     "name": "Berry Cheesecake",
@@ -52,7 +56,8 @@
     "dairy": true,
     "specialty": true,
     "category": "dessert",
-    "image": "./img/cheesecake.jpg"
+    "image": "./img/cheesecake.jpg",
+    "credit": "https://www.pexels.com/photo/cake-dessert-berries-icing-sugar-14107/"
   },
   {
     "name": "Assorted Skewers",
@@ -63,7 +68,8 @@
     "dairy": true,
     "specialty": true,
     "category": "main",
-    "image": "./img/skewers.jpg"
+    "image": "./img/skewers.jpg",
+    "credit": "https://www.pexels.com/photo/plate-of-barbeques-on-dining-table-2689419/"
   },
   {
     "name": "Cinnamon Shortbread",
@@ -74,7 +80,8 @@
     "dairy": true,
     "specialty": true,
     "category": "dessert",
-    "image": "./img/chocolate_dessert.jpg"
+    "image": "./img/chocolate_dessert.jpg",
+    "credit": "https://www.pexels.com/photo/chocolate-with-milted-chocolate-on-white-ceramic-plate-45202/"
   },
   {
     "name": "Hamburger",
@@ -85,7 +92,8 @@
     "dairy": true,
     "specialty": true,
     "category": "main",
-    "image": "./img/burger.jpg"
+    "image": "./img/burger.jpg",
+    "credit": "https://www.pexels.com/photo/close-up-photo-of-burger-1639562/"
   },
   {
     "name": "Meat Pasta",
@@ -96,7 +104,8 @@
     "dairy": true,
     "specialty": true,
     "category": "main",
-    "image": "./img/meat_pasta.jpg"
+    "image": "./img/meat_pasta.jpg",
+    "credit": "https://www.pexels.com/photo/cooked-pasta-with-sliced-tomatoes-and-green-leafy-128408/"
   },
   {
     "name": "Pink Cocktail",
@@ -107,7 +116,8 @@
     "dairy": true,
     "specialty": true,
     "category": "drinks",
-    "image": "./img/pink_cocktail.jpg"
+    "image": "./img/pink_cocktail.jpg",
+    "credit": "https://www.pexels.com/photo/summer-drinks-drink-still-life-109275/"
   },
   {
     "name": "Mornin' Joe",
@@ -118,7 +128,8 @@
     "dairy": true,
     "specialty": true,
     "category": "drinks",
-    "image": "./img/coffee.jpg"
+    "image": "./img/coffee.jpg",
+    "credit": "https://www.pexels.com/photo/cappuccino-filled-cup-on-red-saucer-1414304/"
   },
   {
     "name": "Grilled Chicken Burrito",
@@ -129,7 +140,8 @@
     "dairy": false,
     "specialty": true,
     "category": "main",
-    "image": "./img/burrito.jpg"
+    "image": "./img/burrito.jpg",
+    "credit": "https://www.pexels.com/photo/burrito-chicken-delicious-dinner-461198/"
   },
   {
     "name": "Tomato Basil Soup",
@@ -140,7 +152,8 @@
     "dairy": true,
     "specialty": false,
     "category": "main",
-    "image": "./img/tomato_soup.jpg"
+    "image": "./img/tomato_soup.jpg",
+    "credit": "https://www.pexels.com/photo/appetizer-bowl-bread-breakfast-539451/"
   },
   {
     "name": "Beef Quesadillas",
@@ -151,7 +164,8 @@
     "dairy": true,
     "specialty": false,
     "category": "main",
-    "image": "./img/quesadilla.jpg"
+    "image": "./img/quesadilla.jpg",
+    "credit": "https://www.pexels.com/photo/meal-food-dish-mexican-58722/"
   },
   {
     "name": "Sweet Potato Fries",
@@ -162,6 +176,7 @@
     "dairy": true,
     "specialty": false,
     "category": "side",
-    "image": "./img/sweet_potato.jpg"
+    "image": "./img/sweet_potato.jpg",
+    "credit": "https://www.pexels.com/photo/fries-and-sauce-dip-1893555/"
   }
 ]

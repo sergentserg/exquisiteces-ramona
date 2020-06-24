@@ -134,8 +134,16 @@ const removeItem = (e) => {
     2
   );
   // Reduce item count.
+  let cartData = JSON.parse(localStorage.getItem("cartData"));
   const itemQuantity = cartItem.querySelector(".quantity-input").value;
-  gCartCount.innerHTML = parseInt(gCartCount.innerHTML) - itemQuantity;
+
+  let numItems = 0;
+  cartData.forEach((item) => (numItems += item.quantity));
+  if (numItems > 9) {
+    gCartCount.innerHTML = "9+";
+  } else {
+    gCartCount.innerHTML = numItems - 1;
+  }
 
   // Update subtotal.
   if (!parseFloat(gSubTotal.innerHTML)) {
@@ -146,7 +154,6 @@ const removeItem = (e) => {
     localStorage.removeItem("cartData");
   } else {
     // Remove item from local storage.
-    let cartData = JSON.parse(localStorage.getItem("cartData"));
     cartData = cartData.filter(
       (item) => item.name !== cartItem.querySelector(".item-name").innerHTML
     );

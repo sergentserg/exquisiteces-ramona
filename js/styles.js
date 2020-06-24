@@ -31,5 +31,9 @@ const cartData = JSON.parse(localStorage.getItem("cartData"));
 if (cartData) {
   let totalItemQuantity = 0;
   cartData.forEach((cartItem) => (totalItemQuantity += cartItem.quantity));
-  document.querySelector("#cart-count").innerHTML = totalItemQuantity;
+  if (totalItemQuantity > 9) {
+    document.querySelector("#cart-count").innerHTML = "9+";
+  } else {
+    document.querySelector("#cart-count").innerHTML = totalItemQuantity;
+  }
 }
