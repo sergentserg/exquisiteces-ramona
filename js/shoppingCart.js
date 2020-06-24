@@ -162,6 +162,7 @@ const removeItem = (e) => {
 };
 
 const checkoutSubmit = (e) => {
+  // Clear the UI.
   const shoppingCart = document.querySelector("#shopping-cart-items");
   while (shoppingCart.firstChild) {
     shoppingCart.firstChild.remove();
@@ -170,4 +171,10 @@ const checkoutSubmit = (e) => {
 
   document.querySelector("#checkout-btn").style.display = "none";
   document.querySelector("#subtotal").parentElement.style.display = "none";
+
+  // Update cart count
+  gCartCount.innerHTML = 0;
+
+  // Clear local storage.
+  localStorage.removeItem("cartData");
 };
