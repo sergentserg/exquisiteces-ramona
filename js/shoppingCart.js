@@ -11,9 +11,6 @@ window.addEventListener("load", (e) => {
     shoppingCart.innerHTML = "Your shopping cart is empty.";
     gSubTotal.parentElement.style.display = "none";
     document.getElementById("checkout-btn").style.display = "none";
-    console.log(cartData);
-    cartData = [];
-    localStorage.setItem("cartData", JSON.stringify(cartData));
   } else {
     let cartContent = "";
     let cartCost = 0;
@@ -164,4 +161,13 @@ const removeItem = (e) => {
   cartItem.remove();
 };
 
-const checkoutSubmit = (e) => {};
+const checkoutSubmit = (e) => {
+  const shoppingCart = document.querySelector("#shopping-cart-items");
+  while (shoppingCart.firstChild) {
+    shoppingCart.firstChild.remove();
+  }
+  shoppingCart.innerHTML = "Thank you for your purchase!";
+
+  document.querySelector("#checkout-btn").style.display = "none";
+  document.querySelector("#subtotal").parentElement.style.display = "none";
+};
