@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Tomato Pizza",
+    "price": 15.99,
+    "description": "Our specialty pizza, made with sundried tomatoes, our homemade pesto, and other secret ingredients.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": true,
+    "category": "main",
+    "image": "./img/tomato_pizza.jpg"
+  },
+  {
+    "name": "Deluxe Tofu Soup",
+    "price": 10.99,
+    "description": "A tofu soup topped with portabella mushrooms, carrots, noodles and assorted greens.",
+    "vegan": true,
+    "gluten": true,
+    "dairy": false,
+    "specialty": true,
+    "category": "main",
+    "image": "./img/veggie_soup.jpg"
+  },
+  {
+    "name": "Poached Toast",
+    "price": 8.99,
+    "description": "Delicious avocado spread, spinach, and poached egg on toast.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": false,
+    "specialty": true,
+    "category": "main",
+    "image": "./img/avocado_toast.jpg"
+  },
+  {
+    "name": "Choco Pancake Stack",
+    "price": 9.99,
+    "description": "A stack of fluffy pancakes drizzle in our locally imported maple syrup, topped with  delicious chocolate crumbs.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": true,
+    "category": "main",
+    "image": "./img/pancake.jpg"
+  },
+  {
+    "name": "Berry Cheesecake",
+    "price": 6.99,
+    "description": "A rich cheesecake with a chocolate-flavored crust, topped with berries and drizzled in chocolate syrup.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": true,
+    "category": "dessert",
+    "image": "./img/cheesecake.jpg"
+  },
+  {
+    "name": "Assorted Skewers",
+    "price": 14.99,
+    "description": "Three skewers with assorted meat cooked on the grill, which can be shrimp, chicken, or pork.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": true,
+    "category": "main",
+    "image": "./img/skewers.jpg"
+  },
+  {
+    "name": "Cinnamon Shortbread",
+    "price": 4.99,
+    "description": "A freshly baked cinnamon shortbread drizzled with chocolate syrup.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": true,
+    "category": "dessert",
+    "image": "./img/chocolate_dessert.jpg"
+  },
+  {
+    "name": "Hamburger",
+    "price": 10.99,
+    "description": "A hamburger with a 1/2 pound patty on a broiche bun, including lettuce, tomatoes, onions, and cheddar cheese.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": true,
+    "category": "main",
+    "image": "./img/burger.jpg"
+  },
+  {
+    "name": "Meat Pasta",
+    "price": 15.99,
+    "description": "A delicious bolognese sauce with angel hair pasta.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": true,
+    "category": "main",
+    "image": "./img/meat_pasta.jpg"
+  },
+  {
+    "name": "Pink Cocktail",
+    "price": 9.99,
+    "description": "A fruity cocktail flavored with passion fruit, orange, watermelon, and pink lemonade.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": true,
+    "category": "drinks",
+    "image": "./img/pink_cocktail.jpg"
+  },
+  {
+    "name": "Mornin' Joe",
+    "price": 3.99,
+    "description": "Signature capuccino drink, topped with a hint of sweetened condensed milk.",
+    "vegan": false,
+    "gluten": false,
+    "dairy": true,
+    "specialty": true,
+    "category": "drinks",
+    "image": "./img/coffee.jpg"
+  },
+  {
+    "name": "Grilled Chicken Burrito",
+    "price": 8.99,
+    "description": "Flavorful burrito with garlic-based seasoning on grilled chicken, as well as steaming cold-rice, peppers, onions, and tomatoes.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": false,
+    "specialty": true,
+    "category": "main",
+    "image": "./img/burrito.jpg"
+  },
+  {
+    "name": "Tomato Basil Soup",
+    "price": 8.99,
+    "description": "A hearty bowl of tomato basil soup with sun dried tomatoes and lots of garlic.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": false,
+    "category": "main",
+    "image": "./img/tomato_soup.jpg"
+  },
+  {
+    "name": "Beef Quesadillas",
+    "price": 10.99,
+    "description": "Large quesadilla with beef.",
+    "vegan": false,
+    "gluten": true,
+    "dairy": true,
+    "specialty": false,
+    "category": "main",
+    "image": "./img/quesadilla.jpg"
+  },
+  {
+    "name": "Sweet Potato Fries",
+    "price": 4.99,
+    "description": "Thin sweet potato fries topped with herbs and cheese.",
+    "vegan": false,
+    "gluten": false,
+    "dairy": true,
+    "specialty": false,
+    "category": "side",
+    "image": "./img/sweet_potato.jpg"
+  }
+]

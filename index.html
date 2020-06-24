@@ -7,42 +7,261 @@
   <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
   <link rel="stylesheet" href="./css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Kulim+Park|Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a465367bb1.js" crossorigin="anonymous"></script>
   <title>Exquisiteces Ramona</title>
 </head>
 <body>
   <!-- START NAV -->
-  <nav>
-    <div class="container">
-      <a href="./index.html"><h1 class="text-white mr-2 theme-font"><i class="text-primary fas fa-pepper-hot"></i> Exquisiteces Ramona</h1> 
-      </a> 
-      <ul class="text-white text-bold">
-        <li class="p-1 m-1"><a class="current" href="./index.html">Home</a class="current"></li>
-        <li class="p-1 m-1"><a href="./about.html">About</a></li>
-        <li class="p-1 m-1"><a href="./services.html">Services</a></li>
+  <nav class="text-dark">
+    <div class="nav-container">
+      <div id="nav-branding" class="fs-3">
+        <a href="./index.html">
+          <h1 class="text-white mr-2 theme-font">
+            <i class="text-primary fas fa-pepper-hot"></i> Exquisiteces Ramona
+          </h1> 
+        </a>
+      <div id="hamburger">
+        <div class="middle-line"></div>
+        <div class="top-line"></div>
+        <div class="bottom-line"></div>
+        </div>
+      </div>
+      <ul class="text-white text-bold fs-1">
+        <li class="p-1 m-1"><a class="current" href="./index.html">Home</a></li>
         <li class="p-1 m-1"><a href="./menu.html">Menu</a></li>
-        <li class="p-1 m-1"><a href="./contact.html">Contact</a></li>
+        <li class="p-1 m-1"><a href="./cart.html"><i class="fas fa-shopping-cart"><span id="cart-count">0</span></i></a></li>
       </ul>
     </div>
   </nav>
   <!-- END NAV -->
 
   <!-- START HEADER -->
-  <header id="home-header">
-    <div class="mb-5 header-content">
-      <h4 class="text-center text-white">Welcome to</h4>
-      <h1 class="theme-font text-center mb text-white fs-5">Exquisiteces Ramona</h1>
+  <header id="header">
+    <div class="header-content">
+      <h4 class="text-center text-white fs-3">Welcome to</h4>
+      <div id="huge-heading" class="theme-font text-center mb text-white fs-5">Exquisiteces Ramona</div>
       <p class="text-white text-center mb-1">The lifelong journey that it took you to find us was worth it.</p>
-      <a href="./menu.html" class="btn-outline-primary">View Menu</a>
+      <a href="./menu.html" class="btn-outline-primary fs-2">View Menu</a>
     </div>
     <div class="carousel">
       <img class="carousel-current" src="./img/fruit-salads.jpg" alt="Fruit Salads">
-      <img src="./img/woman-cooking.jpg" alt="Woman Cooking">
       <img src="./img/spaghetti-sauce.jpg" alt="Spaghetti Sauce">
     </div>
   </header>
   <!-- END HEADER -->
 
-  <script src="./js/carousel.js"></script>
+  <!-- START ABOUT -->
+  <section id="about">
+    <div class="container py-5">
+      <div id="about-img">
+        <img src="./img/restaurant.jpg" alt="Restaurant tables">
+      </div>
+      <div id="about-content">
+        <h1 class="theme-font fs-4 text-center mb-4">Our Restaurant</h1>
+        <p class="text-grey mb-2 fs">Exquisiteces Ramona started as a family catering service within the owner's family, but with some effort it expanded into a full-blown restaurant that has been alive these past 3 years.</p>
+        <p class="text-grey mb-2 fs">Our curated menu is a result of years of experimenting with some of our favorite recipes. You can call us a Hispanic fusion of sorts, but we don't like to put a label on it; we're open to serving any kind of food we happen to like, and that we think you'll like!</p>
+    </div>
+  </section>
+  <!-- END ABOUT -->
+
+  <section id="chefs" class="py-4 bg-light">
+    <div class="container">
+      <h2 class="text-center fs-4 mb-3"> <span class="underlined-heading">Our Chefs</span> </h2>
+      <div id="chef-cards">
+        <div class="chef-card">
+          <img src="./img/chef-salad-resized.jpg" alt="Chef with salad" />
+          <h2 class="fs-3 mb text-center">James Gonzalez</h2>
+        </div>
+        <div class="chef-card">
+          <img src="./img/chef-woman.jpg" alt="Chef with teacup" />
+          <h2 class="fs-3 text-center">Katherine Sue</h2>
+        </div>
+        <div class="chef-card">
+          <img src="./img/chef-teacup-resized.jpg" alt="Chef with teacup" />
+          <h2 class="fs-3 mb text-center">Jose Florentino</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- START GALLERY -->
+  <section id="gallery" class="p-5">
+    <div class="container">
+      <h2 class="text-center fs-4 mb-4"><span class="underlined-heading">Our Specialties</span></h2>
+      <div id="gallery-container">
+        <div class="gallery-row">
+          <div class="gallery-photo">
+            <img src="./img/burger.jpg" alt="Burger">
+            <div class="gallery-overlay">
+              <h2>Burgers</h2>
+            </div>
+          </div>
+          <div class="gallery-photo">
+            <img src="./img/chocolate_dessert.jpg" alt="chocolate dessert">
+            <div class="gallery-overlay">
+              <h2>Chocolate Desserts</h2>
+            </div>
+          </div>
+          <div class="gallery-photo">
+            <img src="./img/pancake.jpg" alt="pancakes">
+            <div class="gallery-overlay">
+              <h2>Pancakes</h2>
+            </div>
+          </div>
+          <div class="gallery-photo">
+            <img src="./img/tomato_pizza.jpg" alt="tomato pizza">
+            <div class="gallery-overlay">
+              <h2>Tomato Pizza</h2>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-row">
+          <div class="gallery-photo">
+            <img src="./img/burrito.jpg" alt="Burrito">
+            <div class="gallery-overlay">
+              <h2>Burritos</h2>
+            </div>
+          </div>
+          <div class="gallery-photo">
+            <img src="./img/avocado_toast.jpg" alt="Avocado toast">
+            <div class="gallery-overlay">
+              <h2>Avocado Toast</h2>
+            </div>
+          </div>
+          <div class="gallery-photo">
+            <img src="./img/coffee.jpg" alt="Coffee">
+            <div class="gallery-overlay">
+              <h2>Coffee</h2>
+            </div>
+          </div>
+          <div class="gallery-photo">
+            <img src="./img/cheesecake.jpg" alt="Cheeescake">
+            <div class="gallery-overlay">
+              <h2>Cheesecake</h2>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-row">
+          <div class="gallery-photo">
+            <img src="./img/meat_pasta.jpg" alt="Meat Pasta">
+            <div class="gallery-overlay">
+              <h2>Meat Pasta</h2>
+            </div>
+          </div>
+          <div class="gallery-photo">
+            <img src="./img/skewers.jpg" alt="Skewers">
+            <div class="gallery-overlay">
+              <h2>Skewers</h2>
+            </div>
+          </div>
+          <div class="gallery-photo">
+            <img src="./img/veggie_soup.jpg" alt="Veggie Soup">
+            <div class="gallery-overlay">
+              <h2>Veggie Soup</h2>
+            </div>
+          </div>
+          <div class="gallery-photo">
+            <img src="./img/pink_cocktail.jpg" alt="Pink Cocktail">
+            <div class="gallery-overlay">
+              <h2>Cocktails</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END GALLERY -->
+
+  <!-- START SERVICES -->
+  <section id="services" class="bg-light">
+    <div id="service-cards" class="container">
+      <div class="service-card">
+        <i class="fas fa-truck"></i>
+        <h3 class="mb-2">Delivery</h3>
+        <p class="text-grey">We have great delivery deals. If you're close enough, we'll also provide you with free delivery!</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-glass-cheers"></i>
+        <h3 class="mb-2" >Event Catering</h3>
+        <p class="text-grey">Birthdays, graduations, game nights; you call it! We have treats that will make all guests happy.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-phone"></i>
+        <h3 class="mb-2">Personal Orders</h3>
+        <p class="text-grey">Like something on our menu and want to make it better for yourself? Let us know, and we'll try to get it right.</p>
+      </div>
+    </div>
+  </section>
+  <!-- END SERVICES -->
+
+  <!-- BEGIN RESERVATION -->
+  <section id="reservation" class="p-3">
+    <div class="container">
+      <div id="reservation-container" class="px-2">
+        <div id="reservation-info" class="px-3 fs-1">
+          <h2 class="fs-4 mb-3 secondary-font underlined-heading">Reach Us</h2>
+          <p> <span class="text-bold">Monday-Friday:</span> 10am-12am</p>
+          <p><span class="text-bold">Saturday:</span> 12pm-12am</p>
+          <p><span class="text-bold">Sunday:</span> 12pm-7pm</p>
+          <p><span class="text-bold">Phone:</span> 555-555-5555</p>
+          <p><span class="text-bold">Address:</span> 120 Main St. New York, NY</p>
+          <img class="mt-3" src="./img/restaurant2.jpg" alt="Restaurant wine glasses">
+        </div>
+        <form>
+          <h2 class="fs-4 mb-3 secondary-font underlined-heading">Book a Table</h2>
+          <div class="form-wrap">
+            <input class="text-input" id="name-input" type="text" name="name" placeholder="Name" required>
+            <input class="text-input" id="email-input" type="email" name="email" placeholder="Email" required>
+            <input class="text-input" id="phone-input" type="phone" name="phone" placeholder="Phone" required>
+            <select id="guest-input" class="text-input" name="guest" required>
+              <option value="number">Number of guests</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="more">More than 6</option>
+            </select>
+            <input class="text-input" type="time" id="appt" name="appt"
+                      min="09:00" max="18:00" required>
+            <input class="text-input" type="date" name="date" id="date-input" required>
+            <textarea class="text-input fs" id="message" name="message" placeholder="Tell us more!"></textarea>
+          </div>
+          <input id="reservation-submit" class="btn-outline-dark my-1" type="submit" value="Book Now">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- END RESERVATION -->
+
+  <!-- BEGIN FOOTER -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container">
+      <h2 class="theme-font text-center"><i class="text-primary fas fa-pepper-hot"></i> Exquisiteses Ramona</h2>
+      <ul>
+        <li class="px-3"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li class="px-3"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          </li>
+        <li class="px-3"> <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+  <!-- <script src="./js/carousel.js"></script> -->
+
+  <script>
+    if(window.matchMedia("(min-width: 1200px")) {
+       const head = document.getElementsByTagName('head')[0];
+       const script = document.createElement('script');
+       script.src = './js/carousel.js';
+       head.appendChild(script);
+    }
+  </script>
+  <script src="./js/styles.js"></script>
 </body>
 </html>

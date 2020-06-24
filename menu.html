@@ -1,43 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Kulim+Park|Lobster&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a465367bb1.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Exquisiteces Ramona</title>
-</head>
-<body>
-  <nav>
-    <div class="container">
-      <a href="./index.html"><h1 class="text-white mr-2 theme-font"><i class="text-primary fas fa-pepper-hot"></i> Exquisiteces Ramona</h1> 
-      </a>
-      <ul class="text-white text-bold">
-        <li class="p-1 m-1"><a href="./index.html">Home</a></li>
-        <li class="p-1 m-1"><a href="./about.html">About</a></li>
-        <li class="p-1 m-1"><a href="./services.html">Services</a></li>
-        <li class="p-1 m-1"><a class="current" href="./menu.html">Menu</a class="current"></li>
-        <li class="p-1 m-1"><a href="./contact.html">Contact</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kulim+Park|Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a465367bb1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Exquisiteces Ramona - Menu</title>
+  </head>
+  <body>
+    <nav class="text-dark">
+      <div class="nav-container">
+        <div id="nav-branding" class="fs-3">
+          <a href="./index.html">
+            <h1 class="text-white mr-2 theme-font">
+              <i class="text-primary fas fa-pepper-hot"></i> Exquisiteces Ramona
+            </h1>
+          </a>
+          <div id="hamburger">
+            <div class="middle-line"></div>
+            <div class="top-line"></div>
+            <div class="bottom-line"></div>
+          </div>
+        </div>
+        <ul class="text-white text-bold fs-1">
+          <li class="p-1 m-1">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="p-1 m-1">
+            <a class="current" href="./menu.html">Menu</a>
+          </li>
+          <li class="p-1 m-1">
+            <a href="./cart.html"
+              ><i class="fas fa-shopping-cart"
+                ><span id="cart-count">0</span></i
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header id="header-menu">
+      <div class="header-content">
+        <h1 class="theme-font text-center mb-1 text-white fs-5">Menu</h1>
+        <p class="text-white text-center">
+          Our menu is the result of years of experimentation and refinement, and
+          we know you'll love our options. While you're at it, checkout the
+          nutritional information!
+        </p>
+      </div>
+    </header>
+
+    <section id="menu" class="bg-light">
+      <h2 class="theme-font text-center fs-5 mb-2">Menu</h2>
+      <ul id="allergens-desc" class="text-center mb-2">
+        <li class="mx-2">
+          <span class="vegan"><i class="fas fa-seedling"></i></span> - Vegan
+        </li>
+        <li class="mx-2">
+          <span class="dairy"><i class="fas fa-blender"></i></span>
+          - Contains dairy
+        </li>
+        <li><span class="gluten-free">GF</span> - Gluten Free</li>
       </ul>
-    </div>
-  </nav>
-  <header id="showcase">
-    <div class="header-content mb-5">
-      <h1 class="theme-font text-center mb-1 text-white fs-5">Menu</h1>
-      <p class="text-white text-center">Our menu is the result of years of experimentation and refinement, and we know you'll love our options. 
-      While you're at it, checkout the nutritional information!
-      </p>
-    </div>
-  </header>
-  
-  <section id="menu">
-    <div id="menu-container" class="p-3 bg-light">
-      <h1 class="theme-font text-center fs-5 mb-2">Favorites</h1>
-      <div class="menu-items p-3">
-        <div class="card">
+      <div id="menu-container" class="p-3">
+        <div class="menu-items p-3">
+          <!-- <div class="card">
           <img src="./img/coffee.jpg" alt="Tamales">
           <div class="card-body p-1">
             <div class="card-description">
@@ -60,6 +96,13 @@
             <div class="card-description">
               <h3 class="fs-2 mb">Tamales Mexicanos</h3>
               <p class="mb-1 text-grey">Traditional Mexican dish made out of corn, filled with your choice is chicken, ground-beef, or pork.</p>
+              <div class="mb-1">
+                <ul class="allergens">
+                  <li class="px"><span class="gluten-free">GF</span></li class="px">
+                  <li><span class="vegan"><i class="fas fa-seedling"></i></span></li>
+                  <li class="px"><span class="dairy"><i class="fas fa-blender"></i></span></li>
+                </ul>
+              </div>
               <h4 class="fs-2 mb">$1.50/ea</h4>
             </div>
             <div class="card-nutrition">
@@ -70,79 +113,27 @@
               <button class="btn-outline-dark nutrition-btn">Nutrition</button>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="./img/coffee.jpg" alt="Tamales">
-          <div class="card-body p-1">
-            <div class="card-description">
-              <h3 class="fs-2 mb">Tamales Mexicanos</h3>
-              <p class="mb-1 text-grey">Traditional Mexican dish made out of corn, filled with your choice is chicken, ground-beef, or pork.</p>
-              <h4 class="fs-2 mb">$1.50/ea</h4>
-            </div>
-            <div class="card-nutrition">
-              <h4 class="fs-2 mb">Calories:</h4>
-            </div>
-            <div class="btn-group">
-              <button class="btn-outline-dark description-btn active">Description</button>
-              <button class="btn-outline-dark nutrition-btn">Nutrition</button>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/coffee.jpg" alt="Tamales">
-          <div class="card-body p-1">
-            <div class="card-description">
-              <h3 class="fs-2 mb">Tamales Mexicanos</h3>
-              <p class="mb-1 text-grey">Traditional Mexican dish made out of corn, filled with your choice is chicken, ground-beef, or pork.</p>
-              <h4 class="fs-2 mb">$1.50/ea</h4>
-            </div>
-            <div class="card-nutrition">
-              <h4 class="fs-2 mb">Calories:</h4>
-            </div>
-            <div class="btn-group">
-              <button class="btn-outline-dark description-btn active">Description</button>
-              <button class="btn-outline-dark nutrition-btn">Nutrition</button>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/coffee.jpg" alt="Tamales">
-          <div class="card-body p-1">
-            <div class="card-description">
-              <h3 class="fs-2 mb">Tamales Mexicanos</h3>
-              <p class="mb-1 text-grey">Traditional Mexican dish made out of corn, filled with your choice is chicken, ground-beef, or pork.</p>
-              <h4 class="fs-2 mb">$1.50/ea</h4>
-            </div>
-            <div class="card-nutrition">
-              <h4 class="fs-2 mb">Calories:</h4>
-            </div>
-            <div class="btn-group">
-              <button class="btn-outline-dark description-btn active">Description</button>
-              <button class="btn-outline-dark nutrition-btn">Nutrition</button>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/coffee.jpg" alt="Tamales">
-          <div class="card-body p-1">
-            <div class="card-description">
-              <h3 class="fs-2 mb">Tamales Mexicanos</h3>
-              <p class="mb-1 text-grey">Traditional Mexican dish made out of corn, filled with your choice is chicken, ground-beef, or pork.</p>
-              <h4 class="fs-2 mb">$1.50/ea</h4>
-            </div>
-            <div class="card-nutrition">
-              <h4 class="fs-2 mb">Calories:</h4>
-            </div>
-            <div class="btn-group">
-              <button class="btn-outline-dark description-btn active">Description</button>
-              <button class="btn-outline-dark nutrition-btn">Nutrition</button>
-            </div>
-          </div>
+        </div> -->
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <script src="./js/styles.js"></script>
-</body>
+    <!-- BEGIN FOOTER -->
+    <footer class="bg-dark text-white py-3">
+      <div class="container">
+        <h2 class="theme-font text-center">
+          <i class="text-primary fas fa-pepper-hot"></i> Exquisiteses Ramona
+        </h2>
+        <ul>
+          <li class="px-3"><i class="fab fa-twitter"></i></li>
+          <li class="px-3"><i class="fab fa-facebook-f"></i></li>
+          <li class="px-3"><i class="fab fa-instagram"></i></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script src="./js/styles.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
